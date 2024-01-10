@@ -5,3 +5,8 @@ body {
 .hidden {
     display: none;
 }
+
+.postcard {
+    border: solid black;
+    padding: 10px;
+}
