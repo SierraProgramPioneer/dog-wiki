@@ -1,12 +1,11 @@
+/* Set Body Font Family */
+
 body {
     font-family: arial;
 }
 
+
+/* Set display to none for hidden class */
 .hidden {
     display: none;
-}
-
-.postcard {
-    border: solid black;
-    padding: 10px;
 }
