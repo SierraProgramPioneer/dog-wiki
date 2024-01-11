@@ -25,7 +25,8 @@ The webpage prompts user to input 1 of 3 available dog breeds and provides brief
 
 ## Known Bugs
 
-* There are no known bugs.  Program runs as expected.
+* Program runs as expected
+* Link to gh-pages returns 404 Not Found
 
 ## License
 
