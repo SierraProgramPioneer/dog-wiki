@@ -31,19 +31,19 @@ window.addEventListener("load", function () {
         const breed = getBreed();
 
         if (breed === "Golden Retriever") {
-            console.log("Golden Retriever");
+            document.querySelector("div#goldenRetriever").removeAttribute("class");
         }
 
         else if (breed === "Corgi") {
-            console.log("Corgi");
+            document.querySelector("div#corgi").removeAttribute("class");
         }
 
         else if (breed === "English Setter") {
-            console.log("English Setter");
+            document.querySelector("div#englishSetter").removeAttribute("class");
         }
 
         else {
-            console.log("Breed Not Available");
+            document.querySelector("div#incorrect").removeAttribute("class");
         }
     });
 });
