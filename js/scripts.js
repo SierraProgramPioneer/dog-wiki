@@ -29,7 +29,22 @@ window.addEventListener("load", function () {
 
         // Get input Breed
         const breed = getBreed();
-        console.log(breed);
-    })
+
+        if (breed === "Golden Retriever") {
+            console.log("Golden Retriever");
+        }
+
+        else if (breed === "Corgi") {
+            console.log("Corgi");
+        }
+
+        else if (breed === "English Setter") {
+            console.log("English Setter");
+        }
+
+        else {
+            console.log("Breed Not Available");
+        }
+    });
 });
 
