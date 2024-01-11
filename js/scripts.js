@@ -1,6 +1,7 @@
 // Get User's Input
 function getBreed() {
     const breed = document.getElementById("breed").value;
+    return breed;
 }
 
 //  Display Dog Breed Information Based on User's Request
@@ -12,6 +13,7 @@ window.addEventListener("load", function () {
     form.addEventListener("submit", function (event) {
         // Prevent Default Refresh
         event.preventDefault();
+
         // Set all Content to Hidden
         let golden = document.getElementById("goldenRetriever");
         golden.setAttribute("class", "hidden");
@@ -25,7 +27,9 @@ window.addEventListener("load", function () {
         let incorrect = document.getElementById("incorrect");
         incorrect.setAttribute("class", "hidden");
 
-        getBreed();
+        // Get input Breed
+        const breed = getBreed();
+        console.log(breed);
     })
 });
 
